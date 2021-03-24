@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/febysaputra/node-app.git', branch:'master'
+        git url:'https://github.com/febysaputra/CI-CD.git', branch:'master'
       }
     }
     
